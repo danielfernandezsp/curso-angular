@@ -1,0 +1,16 @@
+nav {
+    padding: 15px;
+
+}
+
+li {
+    margin: 15pX;
+    display: inline;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
