@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CabeceraComponent implements OnInit {
 
+  nombre = "";
   constructor() { }
+
+  pregunta(){
+    this.nombre = prompt("¿Cual es tu nombre?");
+    document.getElementById('botonNombre').style.visibility = "hidden";
+  }
 
   ngOnInit() {
   }

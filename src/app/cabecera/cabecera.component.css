@@ -9,3 +9,9 @@ header {
   text-align: center;
   padding: 15px;
 }
+
+button {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
