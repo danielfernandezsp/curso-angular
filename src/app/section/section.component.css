@@ -1,5 +1,5 @@
-section {
-float: left;  background: #a8ff78;
+section {  
+background: #a8ff78;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -8,3 +8,20 @@ float: left;  background: #a8ff78;
   padding: 15px;
 
 }
+
+table {
+  width: 100%;
+}
+
+thead>tr>th {
+  font-weight: bold;
+  background-color: rgba(128, 128, 128, 0.356);
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  font-weight: normal;
+  border: solid 0.5px;
+}
+
