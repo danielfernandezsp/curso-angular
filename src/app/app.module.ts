@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { FotosComponent } from './fotos/fotos.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MatListModule } from '@angular/material/list';
     AparteComponent,
     SectionComponent,
     PieComponent,
-    MenuDosComponent
+    MenuDosComponent,
+    FotosComponent,
   ],
   imports: [
     BrowserModule,

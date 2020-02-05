@@ -1,0 +1,28 @@
+<h2 class="container text-white text-center my-4 py-4">Galería con ngIf</h2>
+
+<div id="galeria" class="my-4 bg-dark d-flex justify-content-between">
+    <button class="d-inline-block btn btn-warning" (click)="nFoto=nFoto-1" (click)="recalculando()"><--</button>
+
+    <div class="d-inline-block">
+        <img *ngIf="nFoto==0" src="../../assets/laliga-santander-v-negativo-300x300.jpg" alt="">
+        <img *ngIf="nFoto==1" src="../../assets/laliga-v-300x300.jpg" alt="">
+        <img *ngIf="nFoto==2" src="../../assets/laliga-v-negativo-monocolor-300x300.png" alt="">
+    </div>
+
+    <button class="d-inline-block btn btn-warning" (click)="nFoto=nFoto+1" (click)="recalculando()">--></button>
+</div>
+
+<h2 class="container text-white text-center my-4 py-4">Galería con ngClass</h2>
+
+<div id="galeria" class="my-4 bg-dark d-flex justify-content-between">
+    <button class="d-inline-block btn btn-warning" (click)="nFoto2=nFoto2-1" (click)="recalculando2()"><--</button>
+
+    <div class="d-inline-block">
+        <img class="d-none" [ngClass]="{'d-block':nFoto2==0}" src="../../assets/laliga-santander-v-negativo-300x300.jpg" alt="">
+        <img class="d-none" [ngClass]="{'d-block':nFoto2==1}" src="../../assets/laliga-v-300x300.jpg" alt="">
+        <img class="d-none" [ngClass]="{'d-block':nFoto2==2}" src="../../assets/laliga-v-negativo-monocolor-300x300.png" alt="">
+    </div>
+
+    <button class="d-inline-block btn btn-warning" (click)="nFoto2=nFoto2+1" (click)="recalculando2()">--></button>
+</div>
+
