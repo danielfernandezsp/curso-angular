@@ -1,11 +1,12 @@
 body {
-  background: #8360c3;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2ebf91, #8360c3);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2ebf91, #8360c3);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: auto;
+  background: #0052D4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: auto;
+}
 
+
+.col-12{
+  padding: 0;
   margin: 0;
 }
